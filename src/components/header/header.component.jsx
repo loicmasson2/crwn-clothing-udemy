@@ -30,6 +30,4 @@ const mapStateToProps = state => ({
 
 })
 
-console.log('mapStateToProps', mapStateToProps)
-
 export default connect(mapStateToProps)(Header);
