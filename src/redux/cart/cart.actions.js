@@ -5,6 +5,6 @@ export const toggleCartHidden = () => ({
 })
 
 export const addItem = item => ({
-    type: CartActionsType.addItem,
+    type: CartActionsType.ADD_ITEM,
     payload: item 
 })
